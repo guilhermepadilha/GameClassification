@@ -34,17 +34,5 @@ namespace GameClassification.Infra.Data.Contexto
 
         }
 
-        //public override int SaveChanges()
-        //{
-        //    foreach (var entry in ChangeTracker.Entries().Where(entry => entry.Entity.GetType().GetProperty("DataCadastro") != null))
-        //    {
-        //        if (entry.State == EntityState.Added)
-        //        {
-        //            entry.Property("DataCadastro").IsModified = false;
-        //        }
-        //    }
-        //    return base.SaveChanges();
-        //}
-
     }
 }
